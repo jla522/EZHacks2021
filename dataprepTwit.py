@@ -2,8 +2,8 @@ from dataprep.connector import connect
 import asyncio # Non Jupyter 
 import json
 
-twitterApiKey = "o4CpulONFUh5Bm34MQ7l2mNEg"
-twitterApiSecretKey = "QHrDRZiGrSDfKhA5UwI31tHyEBaULKHmF0QlwCFvR5MQ6MyTQU"
+twitterApiKey = ""
+twitterApiSecretKey = ""
 dataprepConnector = connect('twitter', _auth={'client_id': twitterApiKey, 'client_secret': twitterApiSecretKey})
 
 # Querying 100 tweets from @SFU from this month
