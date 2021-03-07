@@ -27,7 +27,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               Spacer(),
               Text(
-                'app name',
+                'HoloFly',
                 style: TextStyle(
                   letterSpacing: 4.0,
                   fontSize: 25,

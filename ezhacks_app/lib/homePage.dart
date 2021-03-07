@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
               ),
               child: TextButton(
                 child: Text(
-                  'Press',
+                  'Find Tweets',
                   style: TextStyle(
                     letterSpacing: 1,
                     fontSize: 18,

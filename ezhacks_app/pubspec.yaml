@@ -23,6 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  #cached_network_image: ^2.5.0
+  arcore_flutter_plugin: ^0.0.3
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,7 +34,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  arcore_flutter_plugin: ^0.0.3
+  #arcore_flutter_plugin: ^0.0.3
   
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

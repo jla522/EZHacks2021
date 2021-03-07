@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'loginPage.dart';
 import 'homePage.dart';
 import 'ARDemo.dart';
+import 'ARPage.dart';
 
 void main() {
   Paint.enableDithering = true;
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => LoginPage(),
         '/home': (context) => HomePage(),
-        '/ar': (context) => ARPage(),
+        '/ar': (context) => ARCore(),
       },
     );
   }

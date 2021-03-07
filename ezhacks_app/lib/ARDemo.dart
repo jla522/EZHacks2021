@@ -50,7 +50,7 @@ class _ARPageState extends State<ARPage> with SingleTickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         brightness: Brightness.light,
-        title: const Text('AR Demo'),
+        title: const Text('Twitter'),
         backgroundColor: Color(0xFF2E6175),
       ),
       backgroundColor: Colors.white,
